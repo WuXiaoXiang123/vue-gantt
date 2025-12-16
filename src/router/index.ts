@@ -7,7 +7,17 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('@/views/gantt/index.vue'),
-    }
+    },
+    {
+      path: '/gantt2',
+      name: 'gantt2',
+      component: () => import('@/views/gantt2/index.vue'),
+    },
+    {
+      path: '/gantt3',
+      name: 'gantt3',
+      component: () => import('@/views/gantt3/index.vue'),
+    },
   ],
 })
 

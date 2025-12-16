@@ -328,12 +328,12 @@ const drawGantt = () => {
   const containerWidth = ganttContainer.value.clientWidth
   const containerHeight = Math.max(300, tasks.value.length * 60)
 
-  // 销毁之前的舞台
+  // 销毁之前的实例
   if (stage) {
     stage.destroy()
   }
 
-  // 创建Konva舞台
+  // 创建Konva实例
   stage = new Konva.Stage({
     container: stageContainer.value,
     width: containerWidth,
