@@ -1,7 +1,7 @@
 <template>
   <g-gantt-chart
     chart-start="2021-07-12 12:00"
-    chart-end="2021-07-14 12:00"
+    chart-end="2021-07-31 12:00"
     precision="hour"
     bar-start="myBeginDate"
     bar-end="myEndDate"
@@ -12,7 +12,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref } from "vue";
+import GGanttChart from "@/components/gantt/GGanttChart.vue";
+import GGanttRow from "@/components/gantt/GGanttRow.vue";
 
 const row1BarList = ref([
   {

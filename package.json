@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@infectoone/vue-ganttastic": "^2.3.2",
+    "@vueuse/core": "^14.1.0",
+    "csstype": "^3.2.3",
     "dayjs": "^1.11.19",
     "jordium-gantt-vue3": "^1.4.6-patch.1",
     "konva": "^10.0.12",
